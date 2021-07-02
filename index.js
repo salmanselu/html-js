@@ -1,5 +1,5 @@
 
 function changeHead(){
-document.getElementById("head").innerHtml = "new head";
-//document.write("function gets called");
+var a = document.getElementById("head");
+document.write(a);
 }
