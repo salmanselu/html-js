@@ -1,4 +1,4 @@
 
 function changeHead(){
-document.getElementById("head")="new head";
+document.getElementById("head").innerHTML="new head";
 }
